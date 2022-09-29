@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тест</title>
+    <link rel="stylesheet" type="text/css" href="kyrsach.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/png">
+</head>
+<body>
+    <header>
+        <div class="navigation">
+        <a id="logo-ref" href="#"><img id="logo" src="logo.png" alt="Логотип"></a>
+            <nav>
+            <a href="First.html">Главная</a>
+            <a href="World_history.html">История мировой анимации</a>
+            <a href="Russan_history.html">История русской анимации</a>
+            <a href="Anime_history.html">История развития аниме</a>
+            <a href="Test.html">Тест</a>
+            </nav>
+        </div>
+    </header>
+    <section>
+        <div class="test-container">
+            <form name="quiz" action="javascript:check();" class="quizform">
+                <div class="quizsection">
+                    <h2>Какое аниме было создано первым?</h2>
+                    <div class="answer">
+                        <input name="q1" value="value1" id="value1" type="radio" checked="checked" /> Momotaro no Umiwashi
+                    </div>
+                    <div class="answer">
+                        <input name="q1" value="value1" id="value2" type="radio" /> Унесенные призраками
+                    </div>
+                    <div class="answer">
+                        <input name="q1" value="value2" id="value3" type="radio" /> Кацудо сясин
+                    </div>
+                    <div class="answer">
+                        <input name="q1" value="value1" id="value4" type="radio" /> Tetsuwan Atomu
+                    </div>
+                </div>
+
+                <div class="quizsection">
+                    <h2>У какого мультфильма впервые был звук?</h2>
+                    <div class="answer">
+                        <input name="q2" value="value1" id="value1" type="radio" checked="checked" /> Фантасмагория
+                    </div>
+                    <div class="answer">
+                        <input name="q2" value="value1" id="value2" type="radio" /> Варежка
+                    </div>
+                    <div class="answer">
+                        <input name="q2" value="value1" id="value3" type="radio" /> Унесенные призраками
+                    </div>
+                    <div class="answer">
+                        <input name="q2" value="value2" id="value4" type="radio" /> Пароходик Вилли
+                    </div>
+                </div>
+
+                <div class="quizsection">
+                    <h2>Кто снял мультфильм «Играющие в мяч клоуны»?</h2>
+                    <div class="answer">
+                        <input name="q3" value="value1" id="value1" type="radio" checked="checked" /> Владислав Старевич
+                    </div>
+                    <div class="answer">
+                        <input name="q3" value="value2" id="value2" type="radio" /> Александр Ширяев
+                    </div>
+                    <div class="answer">
+                        <input name="q3" value="value1" id="value3" type="radio" /> Юрий Меркулов
+                    </div>
+                    <div class="answer">
+                        <input name="q3" value="value1" id="value4" type="radio" /> Роман Качанов
+                    </div>
+                </div>
+
+                <div class="quizsection">
+                    <h2>Какая анимационная студия была первой в США?</h2>
+                    <div class="answer">
+                        <input name="q4" value="value2" id="value1" type="radio" checked="checked" /> Bray Productions
+                    </div>
+                    <div class="answer">
+                        <input name="q4" value="value1" id="value2" type="radio" /> Warner Brothers
+                    </div>
+                    <div class="answer">
+                        <input name="q4" value="value1" id="value3" type="radio" /> Pixar
+                    </div>
+                    <div class="answer">
+                        <input name="q4" value="value1" id="value4" type="radio" /> The Walt Disney Company
+                    </div>
+                </div>
+
+                <div class="quizsection">
+                    <h2>Про что анимационный фильм Momotaro no Umiwashi?</h2>
+                    <div class="answer">
+                        <input name="q5" value="value2" id="value1" type="radio" checked="checked" /> Нападение японцев на Перл-Харбор
+                    </div>
+                    <div class="answer">
+                        <input name="q5" value="value1" id="value2" type="radio" /> Пропавшую девочку
+                    </div>
+                    <div class="answer">
+                        <input name="q5" value="value1" id="value3" type="radio" /> Невезучего пса
+                    </div>
+                    <div class="answer">
+                        <input name="q5" value="value1" id="value4" type="radio" /> Ядерную атаку
+                    </div>
+                </div>
+
+                <div class="quizsection">
+                    <h2>Сколько в России в год снимается часов мультфильмов на данное время?</h2>
+                    <div class="answer">
+                        <input name="q6" value="value1" id="value1" type="radio" checked="checked" /> 200-300 часов
+                    </div>
+                    <div class="answer">
+                        <input name="q6" value="value1" id="value2" type="radio" /> >1000 часов
+                    </div>
+                    <div class="answer">
+                        <input name="q6" value="value2" id="value3" type="radio" /> 20-30 часов
+                    </div>
+                    <div class="answer">
+                        <input name="q6" value="value1" id="value4" type="radio" /> >10000 часов
+                    </div>
+                </div>
+
+                <div class="quizsection">
+                    <h2>В каком году вышел «Очаровательный рисунок» Джеймса Стюарта?</h2>
+                    <div class="answer">
+                        <input name="q7" value="value2" id="value1" type="radio" checked="checked" /> 1900
+                    </div>
+                    <div class="answer">
+                        <input name="q7" value="value1" id="value2" type="radio" /> 1896
+                    </div>
+                    <div class="answer">
+                        <input name="q7" value="value1" id="value3" type="radio" /> 1889
+                    </div>
+                    <div class="answer">
+                        <input name="q7" value="value1" id="value4" type="radio" /> 1904
+                    </div>
+                </div>
+
+                <div class="quizsection">
+                    <h2>Когда было найденно первое аниме?</h2>
+                    <div class="answer">
+                        <input name="q8" value="value1" id="value1" type="radio" checked="checked" /> 1999 год
+                    </div>
+                    <div class="answer">
+                        <input name="q8" value="value1" id="value2" type="radio" /> 1907 год
+                    </div>
+                    <div class="answer">
+                        <input name="q8" value="value1" id="value3" type="radio" /> 1910 год
+                    </div>
+                    <div class="answer">
+                        <input name="q8" value="value2" id="value4" type="radio" /> 2005 год
+                    </div>
+                </div>
+
+                <div class="quizsection">
+                    <h2>Какое произведение снял не Владислав Старевич?</h2>
+                    <div class="answer">
+                        <input name="q9" value="value2" id="value1" type="radio" checked="checked" /> Шутки Арлекина
+                    </div>
+                    <div class="answer">
+                        <input name="q9" value="value1" id="value2" type="radio" /> Стрекоза и муравей
+                    </div>
+                    <div class="answer">
+                        <input name="q9" value="value1" id="value3" type="radio" /> Рождество у обитателей леса
+                    </div>
+                    <div class="answer">
+                        <input name="q9" value="value1" id="value4" type="radio" /> Прекрасная Люканида, или Война усачей с рогачами
+                    </div>
+                </div>
+
+                <div class="quizsection">
+                    <h2>Кто стал основоположником традиций современного аниме?</h2>
+                    <div class="answer">
+                        <input name="q10" value="value1" id="value1" type="radio" checked="checked" /> Симокава Отэн
+                    </div>
+                    <div class="answer">
+                        <input name="q10" value="value1" id="value2" type="radio" /> Ясудзи Мурато
+                    </div>
+                    <div class="answer">
+                        <input name="q10" value="value1" id="value3" type="radio" /> Хаяо Миядзаки
+                    </div>
+                    <div class="answer">
+                        <input name="q10" value="value2" id="value4" type="radio" /> Осаму Тэдзука
+                    </div>
+                </div>
+
+                <div class="quizsection">
+                    <h2>В каком году вышел первый 3D-мультфильм?</h2>
+                    <div class="answer">
+                        <input name="q11" value="value2" id="value1" type="radio" checked="checked" /> 1995
+                    </div>
+                    <div class="answer">
+                        <input name="q11" value="value1" id="value2" type="radio" /> 1999
+                    </div>
+                    <div class="answer">
+                        <input name="q11" value="value1" id="value3" type="radio" /> 2002
+                    </div>
+                    <div class="answer">
+                        <input name="q11" value="value1" id="value4" type="radio" /> 1990
+                    </div>
+                </div>
+
+                <div class="quizsection">
+                    <h2>В каком году в России появилась анимация?</h2>
+                    <div class="answer">
+                        <input name="q12" value="value1" id="value1" type="radio" checked="checked" /> 1899
+                    </div>
+                    <div class="answer">
+                        <input name="q12" value="value2" id="value2" type="radio" /> 1906
+                    </div>
+                    <div class="answer">
+                        <input name="q12" value="value1" id="value3" type="radio" /> 1908
+                    </div>
+                    <div class="answer">
+                        <input name="q12" value="value1" id="value4" type="radio" /> 1900
+                    </div>
+                </div>
+
+                <div class="quizsection">
+                    <h2>Какой анимационным фильм, получил премию Берлинского кинофестиваля, как «Лучший фильм», а не «Лучший мультфильм»?</h2>
+                    <div class="answer">
+                        <input name="q13" value="value1" id="value1" type="radio" checked="checked" /> Мой сосед Тоторо
+                    </div>
+                    <div class="answer">
+                        <input name="q13" value="value1" id="value2" type="radio" /> Tetsuwan Atomu
+                    </div>
+                    <div class="answer">
+                        <input name="q13" value="value2" id="value3" type="radio" /> Унесенные призраками
+                    </div>
+                    <div class="answer">
+                        <input name="q13" value="value1" id="value4" type="radio" /> Ходячий замок
+                    </div>
+                </div>
+
+                <div class="quizsection">
+                    <h2>Какой мультфильм считается первым анимационным фильмом с сюжетом?</h2>
+                    <div class="answer">
+                        <input name="q14" value="value2" id="value1" type="radio" checked="checked" /> Фантасмагория
+                    </div>
+                    <div class="answer">
+                        <input name="q14" value="value1" id="value2" type="radio" /> Очаровательный рисунок
+                    </div>
+                    <div class="answer">
+                        <input name="q14" value="value1" id="value3" type="radio" /> Пароходик Вилли
+                    </div>
+                    <div class="answer">
+                        <input name="q14" value="value1" id="value4" type="radio" /> Варежка
+                    </div>
+                </div>
+
+                <div class="quizsection">
+                    <h2>В какую студию вошли все разрозненные ранее студии Советского Союза?</h2>
+                    <div class="answer">
+                        <input name="q15" value="value1" id="value1" type="radio" checked="checked" /> Экран
+                    </div>
+                    <div class="answer">
+                        <input name="q15" value="value1" id="value2" type="radio" /> Межрабпром
+                    </div>
+                    <div class="answer">
+                        <input name="q15" value="value2" id="value3" type="radio" /> Союзмультфильм
+                    </div>
+                    <div class="answer">
+                        <input name="q15" value="value1" id="value4" type="radio" /> Мосфильм
+                    </div>
+                </div>
+            </form>
+            <div class="button-container">
+            <button class="button" onclick="check()">Результат</button>
+        </div>
+        </div>
+    </section>
+    <script type="text/javascript">
+
+        function check(){
+            var ocenka=0;
+            var question;
+            question = 1;
+            var choice;
+            for (question = 1; question <= 15; question++) {
+            var q = document.forms['quiz'].elements['q'+question];
+             for (var i = 0; i < q.length; i++) {
+                 if (q[i].checked) {
+                     choice = q[i].value;
+                 }
+             }
+             if (choice == "value2") {
+                 ocenka++;
+             }
+            }	 if (ocenka>7){
+                alert("Поздравляю! Вы набрали " + ocenka + " баллов");
+            }
+              else if (ocenka>4) {
+                alert("Ой! вы набрали " + ocenka + " баллов. Попробуйте пройти тест еще раз)");
+              }
+              else if (ocenka==0) {
+                alert("Ой! вы набрали " + ocenka + " баллов. Попробуйте пройти тест еще раз)");
+              }
+              else if (ocenka==1) {
+                alert("Ой! вы набрали " + ocenka + " балл. Попробуйте пройти тест еще раз)");
+              }
+              else {
+                alert("Ой! вы набрали " + ocenka + " балла. Попробуйте пройти тест еще раз)");
+              }
+            }
+
+        </script>
+    <footer>Курсовая работа по теме "История анимации"</footer>
+</body>
+</html>
